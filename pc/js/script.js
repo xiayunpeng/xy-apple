@@ -25,7 +25,7 @@ $(document).ready(function() {
 			动态显示隐藏回到顶部按钮
 		*/
 		// 滚动条卷去的大小
-		var sTop = $(window).scrollTop();
+		var sTop = $(window).sss();
 
 		// 超过200像素
 		if (sTop >= 200) {
